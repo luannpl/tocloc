@@ -1,0 +1,44 @@
+:root{
+    --main-bg:rgb(102, 122, 93);
+    --main-cor: aliceblue;
+}
+
+body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--main-bg);
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-bg);
+}
+
+.nav-link{
+    color: var(--main-cor);
+}
+
+.gallery{
+    height: 900px;
+}
+
+
+
+.title-arenas{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: var(--main-cor);
+}
+
+.content-arenas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-arenas{
+    margin: 20px;
+}
