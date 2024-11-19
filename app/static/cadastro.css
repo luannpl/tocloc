@@ -1,0 +1,35 @@
+
+        body {
+            background: rgba(255, 255, 255, 0.9);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card-header {
+            background-color: #4CAF50;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .btn-primary {
+            background-color: #4CAF50;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #45A049;
+        }
+        .form-label {
+            color: #333;
+        }
+        .form-control {
+            border-radius: 10px;
+        }
+        .brand-logo {
+            font-size: 2.5rem;
+            color: #4CAF50;
+        }
+    

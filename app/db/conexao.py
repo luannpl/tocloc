@@ -6,7 +6,7 @@ def criar_conexao():
         conexao = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='1234'
+            password='luan1010'
         )
         cursor = conexao.cursor()
         cursor.execute('CREATE DATABASE IF NOT EXISTS app')
